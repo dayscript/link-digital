@@ -1,0 +1,23 @@
+global:
+  version: VERSION
+  css:
+    base:
+      css/linkdigital.css: {}
+fonts:
+  css:
+    theme:
+       '//fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap': { type: external, minified: true }     
+  js:
+    js/linkdigital.js: {}
+mmenu:
+  version: VERSION
+  css:
+    base:
+      libraries/mmenu/dist/mmenu.css: {}
+  js:
+    libraries/mmenu/dist/mmenu.js: {}
+hamburgers:
+  version: VERSION
+  css:
+    base:
+      libraries/hamburgers/dist/hamburgers.css: {}

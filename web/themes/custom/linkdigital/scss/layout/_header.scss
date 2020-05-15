@@ -1,0 +1,186 @@
+.header{
+    background: $primary-color;
+    display: flex;
+    padding: 1rem;
+    background-image: url(../images/doth.png);
+    background-repeat: repeat; 
+    height: 100vh;
+    position: relative;
+    @media screen and (max-width: 600px) {
+        height: 80vh; 
+    }
+}
+.path-casos-de-exito, .section-casos-de-exito{ 
+    .header{
+    background: #103778 !important;
+    display: flex;
+    padding: 1rem;
+    background-image: url(../images/doth.png) !important;
+    background-repeat: repeat; 
+    height: 100vh;
+    position: relative;
+    @media screen and (max-width: 600px) {
+        height: 80vh;
+    }
+    }
+}
+.section-media-center{
+    .header{
+        background: $secondary-color !important;
+        display: flex;
+        padding: 1rem;
+        background-image: url(../images/doth-dark.png) !important;
+        background-repeat: repeat; 
+        height: 100vh;
+        position: relative;
+        @media screen and (max-width: 600px) {
+            height: 80vh;
+        }
+        }
+}
+.section-nosotros{
+    .header{
+        background: $secondary-color !important;
+        display: flex;
+        padding: 1rem;
+        background-image: url(../images/doth-dark.png) !important;
+        background-repeat: repeat; 
+        height: 100vh;
+        position: relative;
+        @media screen and (max-width: 600px) {
+            height: 80vh;
+        }
+        }
+}
+.path-servicios, .section-servicios{
+    .header{
+        background: #1C2A3D!important;
+        display: flex;
+        padding: 1rem;
+        background-image: url(../images/doth-dark.png) !important;
+        background-repeat: repeat; 
+        height: 100vh;
+        position: relative;
+        @media screen and (max-width: 600px) {
+            height: 80vh;
+        }
+        }
+}
+.section-equipo{
+    .header{
+        background: #626973!important;
+        display: flex;
+        padding: 1rem;
+        background-image: url(../images/doth-dark.png) !important;
+        background-repeat: repeat; 
+        height: 100vh;
+        position: relative;
+        @media screen and (max-width: 600px) {
+            height: 80vh;
+        }
+        }
+}
+.section-politicas-de-privacidad, .section-terminos-y-condiciones{
+    .header{
+        background: $secondary-color !important;
+        display: flex;
+        padding: 1rem;
+        background-image: url(../images/doth.png) !important;
+        background-repeat: repeat; 
+        height: 100vh;
+        position: relative;
+        @media screen and (max-width: 600px) {
+            height: 80vh;
+        }
+        }
+}
+section#block-linkdigital-branding{
+    width: 220px;
+    z-index: 2;
+    position: relative;
+    @media screen and (max-width: 600px) {
+        width: 200px;
+        margin-top: 1rem;
+        margin-bottom: 2rem; 
+    }
+}
+section#block-marcadelsitio-2{
+    width: 220px;
+    z-index: 2;
+    @media screen and (max-width: 600px) {
+        width: 200px;
+        margin-top: 1rem;
+        margin-bottom: 2rem; 
+    }
+}
+
+.menu-full-screen {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    top: 0;
+    left: 0; 
+    padding: 1rem;
+    background: $secondary-color;
+    color: $white;
+    div#mmenu-full {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        text-align: center;
+        nav#block-navegacionprincipal {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+            .menu li {
+                display: block;
+                width: 100%;
+                a {
+                    padding: 0.7rem 1rem;
+                    font-size: 2.2rem;
+                    color: white;
+                    letter-spacing: -1px;
+                    font-weight: 700;
+                    font-family: $header-font-family;
+                    transition: ease all 0.4s;
+                    @media screen and (max-width: 600px) {
+                        font-size: 1.6rem;
+                    }
+                    &:hover{
+                        color: $primary-color;
+                        transition: ease all 0.4s;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+button.hamburger.hamburger--collapse.is-active {
+    z-index: 2;
+    position: relative; 
+    .hamburger-box {
+        @media screen and (max-width: 600px){
+            position: fixed;
+            margin-left: -3rem;
+        }
+    }
+}
+section#block-views-block-capacidades-block-1 {
+    .views-field-nothing {
+        float: right;
+        display: inline-block;
+        width: 75%;
+        @media screen and (max-width: 600px){
+            width: 100%;
+        }
+    }
+    h2 {
+        color: $primary-color;
+        font-size: 1.8rem;
+        font-family: $body-font-family;
+    }
+}

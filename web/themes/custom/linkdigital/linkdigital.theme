@@ -1,0 +1,49 @@
+<?php
+
+// Add your custom theme override functions here.
+
+/**
+ * Implements hook_preprocess_block()
+ */
+function linkdigital_preprocess_block(&$variables) {
+}
+
+/**
+ * Implements template_preprocess_field().
+ */
+function linkdigital_preprocess_field(&$variables, $hook) {
+}
+
+/**
+ * Implements template_preprocess_html().
+ *
+ * Adds additional classes
+ */
+function linkdigital_preprocess_html(&$variables) {
+}
+
+/**
+ * Implements template_preprocess_node
+ *
+ * Add template suggestions and classes
+ */
+function linkdigital_preprocess_node(&$variables) {
+}
+
+/**
+ * Implements template_preprocess_page
+ *
+ * Add convenience variables and template suggestions
+ */
+function linkdigital_preprocess_page(&$variables) {
+      // Remove the "No front page content has been created yet.".
+  if ($variables['is_front']) {
+    unset($variables['page']['content']['linkdigital_content']);
+  }
+}
+
+/**
+ * Implements template_preprocess_views_view().
+ */
+function linkdigital_preprocess_views_view(&$variables) {}
+

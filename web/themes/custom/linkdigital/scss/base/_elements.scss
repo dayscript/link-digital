@@ -1,0 +1,375 @@
+// Elements
+//
+// Things to review before you write code here:
+// - Be sure to load after "foundation" import.
+// - Also, before adding styles be sure to modify variables in the
+//   "base/_common.scss" file. You may not need to write any code.
+
+// Headings
+//------------------------------------------
+h1, h2, h3,
+h4, h5, h6 {
+    font-weight: 700;
+    line-height: 0.9em;
+    @media screen and (max-width: 600px) {
+        line-height: 1em;
+    }
+}
+h1{
+    letter-spacing: -0.25rem; 
+    color: $primary-color;
+    @media screen and (max-width: 600px) {
+        letter-spacing: -0.025rem; 
+      }
+      &.sm{
+          font-size: 4rem;
+          @media screen and (max-width: 600px){
+              font-size: 1.5rem;
+          }
+      }
+}
+
+// Anchors
+//-----------------------------------------------------------------------------
+// a {}
+
+// a:focus {}
+
+// a.active,
+// a:active,
+// a:hover {}
+
+// Form Input
+//-----------------------------------------------------------------------------
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+// input[type="month"],
+// input[type="week"],
+input[type="email"],
+// input[type="number"],
+// input[type="search"],
+// input[type="tel"],
+// input[type="time"],
+// input[type="url"],
+textarea {
+    background-color: rgba(254, 254, 254, 0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    &:focus{
+        background-color: rgba(28, 42, 56, 0.26);
+        box-shadow: none;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-color: $white;
+    }
+ }
+
+// input[type="text"],
+// input[type="password"],
+// input[type="date"],
+// input[type="datetime"],
+// input[type="datetime-local"],
+// input[type="month"],
+// input[type="week"],
+// input[type="email"],
+// input[type="number"],
+// input[type="search"],
+// input[type="tel"],
+// input[type="time"],
+// input[type="url"],
+// textarea {
+
+// }
+::selection {
+    color: $white;
+    background: $secondary-color;
+  }
+
+body, p{
+font-size: 1.1rem; 
+}
+// select {}
+label {
+    font-size: 1.2rem;
+    @media screen and (max-width: 600px){
+        font-size: 1rem;
+    }
+} 
+.block-full{
+    display: inline-block;
+    width: 100%;
+}
+.block-blue{
+    background: $secondary-color;
+    color: $white;
+    h1{
+        color: $white;
+    }
+}
+.block-white{
+    color: $white; 
+    a{
+        color: $white !important;   
+    }
+}
+.block-cyan{
+    background: $primary-color;
+    color: $white;
+}
+.title-section{
+    position: absolute;
+    max-width: 75rem;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    .section-title {
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        font-weight: 600;
+        @media screen and (max-width: 600px) {
+            font-size: 1rem;
+            margin-bottom: 2rem;
+        } 
+    }
+    h1{
+        color: $white;
+    }
+}
+.pt-6{
+    padding-top: 6rem;
+    @media screen and (max-width: 600px){
+        padding-top: 3rem;
+    }
+}
+.pt-4{
+    padding-top: 4rem;
+    @media screen and (max-width: 600px){
+        padding-top: 2rem;
+    }
+}
+.pt-2{
+    padding-top: 2rem;
+    @media screen and (max-width: 600px){
+        padding-top: 1rem;
+    }
+}
+.pb-6{
+    padding-bottom: 6rem;
+    @media screen and (max-width: 600px){
+        padding-bottom: 3rem;
+    }
+}
+.pb-4{
+    padding-bottom: 4rem;
+    @media screen and (max-width: 600px){
+        padding-bottom: 2rem;
+    }
+}
+.pb-2{
+    padding-bottom: 2rem;
+    @media screen and (max-width: 600px){
+        padding-bottom: 1rem;
+    }
+}
+.section-title {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 600;
+    @media screen and (max-width: 600px) {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    } 
+    a{
+        text-transform: uppercase;
+        font-size: 1.3rem;
+        font-weight: 600;
+        color: $black;
+        @media screen and (max-width: 600px) {
+            font-size: 1rem;
+            margin-bottom: 2rem;
+        } 
+    }
+}
+.mb-4{
+    margin-bottom: 4rem;
+    @media screen and (max-width: 600px){
+        margin-bottom: 2rem;
+    }
+}
+.mt-4{
+    margin-top: 4rem;
+    @media screen and (max-width: 600px){
+        margin-top: 2rem;
+    }
+}
+.mb-6{
+    margin-bottom: 6rem;
+    @media screen and (max-width: 600px){
+        margin-bottom: 3rem;
+    }
+}
+.mt-6{
+    margin-top: 6rem;
+    @media screen and (max-width: 600px){
+        margin-top: 3rem;
+    }
+}
+.mb-2{
+    margin-bottom: 2rem;
+    @media screen and (max-width: 600px){
+        margin-bottom: 1rem;
+    }
+}
+.mb-3{
+    margin-bottom: 3rem;
+    @media screen and (max-width: 600px){
+        margin-bottom: 1.5rem;
+    }
+}
+.mt-3{
+    margin-top: 3rem;
+    @media screen and (max-width: 600px){
+        margin-top: 1.5rem;
+    }
+}
+.mt-2{
+    margin-top: 2rem;
+    @media screen and (max-width: 600px){
+        margin-top: 1rem;
+    }
+}
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+  }
+
+  .button{
+      border: 1px solid $primary-color;
+      text-transform: uppercase;
+      &.white{
+        border: 1px solid $white;
+        color: $white;
+        background-color: transparent;
+      }
+      &:hover{
+        color: $white; 
+        background-color: $secondary-color;
+    }
+  }
+  .button.success {
+    color: $white; 
+    &:hover{
+        color: $white; 
+    }
+}
+ul.js-pager__items {
+    list-style: none;
+}
+
+.node--type-article{
+    .field-node--body{
+        padding: 3rem 2rem;
+        @media screen and (max-width: 600px){
+            padding: 0;
+        }
+        h2{
+            font-size: 1.6rem;
+            font-family: $body-font-family;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            @media screen and (max-width: 600px){
+                font-size: 1.2rem;
+                line-height: 1.4em;
+            }
+        }
+    }
+    .field-name-field-autor {
+        padding-left: 2rem;
+        display: inline-block;
+        margin-bottom: 1rem;
+        @media screen and (max-width: 600px){
+            padding-left: 0;
+            display: block;
+            margin-bottom: 0.4rem;
+        }
+        .field-label {
+            display: inline-block;
+        }
+        .field-items {
+            display: inline-block;
+            color: $primary-color;
+            font-weight: 600;
+        }
+        
+    }
+    .field-name-node-post-date{
+        padding-right: 2rem;
+        color: $primary-color;
+        font-size: 0.9rem;
+        display: inline-block;
+        float: right;
+        @media screen and (max-width: 600px){
+            padding-right: 0;
+            display: block;
+            float: left;
+            width: 100%;
+            margin-bottom: 1.2rem;
+        }
+    }
+    .foundation-2col {
+        .columns{
+            &.simple{
+                padding-left: 0;
+            }
+        }
+        @media screen and (max-width: 600px){
+            .columns{
+                &.simple{
+                    padding-left: 0.7rem;
+                    img{
+                        margin-bottom: 2rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+h1.js-quickedit-page-title {
+    width: 75%;
+    display: inline-block;
+    @media screen and (max-width: 600px){
+        padding-left: 0.7rem;
+        padding-right: 0.7rem;
+    }
+}
+.row.fit {
+    padding-left: 6rem;
+    padding-right: 6rem;
+    @media screen and (max-width: 600px){
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+}
+
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+    background-color: #ffffff !important;
+}
+
+hr {
+    margin: 1.4rem auto;
+    border-bottom: 1px solid #eaeaea;
+}

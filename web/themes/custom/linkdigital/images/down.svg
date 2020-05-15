@@ -1,0 +1,14 @@
+<svg width="101" height="126" xmlns="http://www.w3.org/2000/svg" clip-rule="evenodd">
+ <clipPath id="_clip1">
+  <rect id="svg_1" y="0.33" x="0.868" width="100" height="125"/>
+ </clipPath>
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke="null" fill="#1bb7eb" id="svg_4" fill-rule="nonzero" d="m99.721109,48.385963l-9.898839,-10.438776l-39.235398,36.715693l-39.235398,-36.715693l-9.898839,10.438776l49.134237,46.074596l49.134237,-46.074596z"/>
+ </g>
+</svg>

@@ -1,0 +1,103 @@
+footer.footer{
+    background: $secondary-color;
+    background-image: url(../images/doth-dark.png);
+    background-repeat: repeat; 
+    section#block-marcadelsitio {
+        img {
+            width: 66%;
+        }
+    }
+    h2{
+        font-size: 5.125rem;
+        padding-left: 1rem;
+        margin-bottom: 2rem;
+        @media screen and (max-width: 600px){
+            font-size: 1.875rem;
+            padding-left: 0.6rem;
+        }
+    }
+    form#webform-submission-hablemos-add-form {
+        .button.success {
+            margin-right: 1rem;
+        }
+    }
+}
+.l-contact {
+    display: inline-block;
+    width: 100%;
+    background: $primary-color;
+    margin-bottom: -8px;
+}
+section#block-views-block-contacto-block-1{
+    color: $white;
+    overflow: hidden;
+    position: relative;
+    padding-right: 0;
+    padding-left: 2rem;
+    @media screen and (max-width: 600px){
+        padding-right: .9375rem;
+        padding-left: .9375rem;
+    }
+    ul.quicktabs-tabs{
+        margin-left: 0;
+        a{
+            color: $white;
+        }
+        li{
+            margin-right: 2rem;
+            @media screen and (max-width: 600px){
+                margin-right: 1.2rem;
+            }
+            a{
+                font-size: 1.4rem;
+                @media screen and (max-width: 600px){
+                font-size: 1.2rem;
+                }
+            }
+            &.active{
+                a{
+                    color: $black;
+                }
+            }
+        }
+
+    }  
+    h2{
+        padding-top: 3rem;
+        @media screen and (max-width: 600px){
+            font-size: 1.875rem;
+        }
+    }
+    header {
+        width: 48%;
+        @media screen and (max-width: 600px){
+            width: 100%;
+        }
+    }
+    .oficina {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50%;
+        @media screen and (max-width: 600px){
+            position: relative;
+            top: 0;
+            right: 0;
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+    }
+}
+h2.node-title {
+    display: none !important;
+}
+section#block-pie p {
+    color: white;
+    font-size: 0.9rem;
+    @media screen and (max-width: 600px){
+        text-align: center;
+        a{
+            display: block;
+        }
+    }
+}
