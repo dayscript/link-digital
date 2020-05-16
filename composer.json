@@ -16,7 +16,10 @@
     ],
     "require": {
         "composer/installers": "^1.2",
+        "drupal/better_exposed_filters": "^4.0@beta",
+        "drupal/blazy": "^2.1",
         "drupal/block_class": "^1.1",
+        "drupal/blockgroup": "^1.2",
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-project-message": "^8.8",
         "drupal/core-recommended": "^8.8",
