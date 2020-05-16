@@ -20,7 +20,6 @@
         "drupal/better_exposed_filters": "^4.0@beta",
         "drupal/blazy": "^2.1",
         "drupal/block_class": "^1.1",
-        "drupal/blockgroup": "^1.1",
         "drupal/colorbox": "^1.6",
         "drupal/colorbox_load": "^1.0",
         "drupal/core-composer-scaffold": "^8.8",
