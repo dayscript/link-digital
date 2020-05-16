@@ -32,19 +32,10 @@
             $(".header-page").removeClass("header-fix");
           }
       });
-
-/*      $('#block-navegacionprincipal li a.local-scroll').on('click', function(){
-        $('.menu-full-screen').addClass('hide')
-        $('button.hamburger').removeClass('is-active')
-          $('html, body').animate({
-              scrollTop: $('#footer-first').offset().top
-          }, 1);
-      });*/
       
   $('#block-navegacionprincipal li a.local-scroll', context).once('linkdigital').on('click', function(event) {
         $('.menu-full-screen').addClass('hide')
         $('button.hamburger').removeClass('is-active')
-
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "") {
       // Prevent default anchor click behavior
@@ -64,18 +55,6 @@
       });
     } // End if
   });
-    //   jQuery.trim(jQuery(".breadcrumb li:last-child").text()).substring(0, 10)
-    // .split(" ").slice(0, -1).join(" ") + "...";
-
-
-
     }
   };
-
-  /** Drupal.behaviors.exampleBehavior = {
-    attach: function (context, settings) {
-      //alert("I'm alive!");
-    }
-  };
-*/
 })(jQuery, Drupal);
