@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cc5cdaea06b20c62c05ef1a2af394f39",
+    "content-hash": "2a40fa8f48b4b92b3fa4cc46f22cd6a7",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -991,62 +991,6 @@
                 "source": "https://cgit.drupalcode.org/block_class",
                 "issues": "https://www.drupal.org/project/issues/block_class",
                 "irc": "irc://irc.freenode.org/drupal-contribute"
-            }
-        },
-        {
-            "name": "drupal/blockgroup",
-            "version": "1.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/blockgroup.git",
-                "reference": "8.x-1.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/blockgroup-8.x-1.2.zip",
-                "reference": "8.x-1.2",
-                "shasum": "d07cea80eef5226627639ab6f830b5e9dec6e0af"
-            },
-            "require": {
-                "drupal/core": "~8.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-1.2",
-                    "datestamp": "1582997758",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "geek-merlin",
-                    "homepage": "https://www.drupal.org/user/229048"
-                },
-                {
-                    "name": "kiss.jozsef",
-                    "homepage": "https://www.drupal.org/user/2848443"
-                },
-                {
-                    "name": "leymannx",
-                    "homepage": "https://www.drupal.org/user/2482808"
-                },
-                {
-                    "name": "znerol",
-                    "homepage": "https://www.drupal.org/user/63999"
-                }
-            ],
-            "description": "Add block groups to block configuration page.",
-            "homepage": "https://www.drupal.org/project/blockgroup",
-            "support": {
-                "source": "https://git.drupalcode.org/project/blockgroup"
             }
         },
         {
