@@ -64,14 +64,6 @@
       });
     } // End if
   });
-  $('#webform-submission-hablemos-add-form input#edit-actions-submit', context).once('linkdigital').on('click',function(e){
-    $('.recaptcha-error > div').addClass('recaptcha-fail')
-    $('.recaptcha-error > div').css({
-      "border": "2px solid rgb(231, 76, 60) !important",
-      "width": "307px",
-      "height": "80px"
-    });
-  });
     //   jQuery.trim(jQuery(".breadcrumb li:last-child").text()).substring(0, 10)
     // .split(" ").slice(0, -1).join(" ") + "...";
 
