@@ -67,7 +67,7 @@
   $('#webform-submission-hablemos-add-form input#edit-actions-submit', context).once('linkdigital').on('click',function(e){
     $('.recaptcha-error > div').addClass('recaptcha-fail')
     $('.recaptcha-error > div').css({
-      "border": "2px solid rgb(231, 76, 60)",
+      "border": "2px solid rgb(231, 76, 60) !important",
       "width": "307px",
       "height": "80px"
     });
