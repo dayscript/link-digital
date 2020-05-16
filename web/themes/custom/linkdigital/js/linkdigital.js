@@ -41,7 +41,7 @@
           }, 1);
       });*/
       
-  $("#block-navegacionprincipal li a.local-scroll").on('click', function(event) {
+  $('#block-navegacionprincipal li a.local-scroll', context).once('linkdigital').on('click', function(event) {
         $('.menu-full-screen').addClass('hide')
         $('button.hamburger').removeClass('is-active')
 
@@ -64,6 +64,15 @@
       });
     } // End if
   });
+  $('#webform-submission-hablemos-add-form input#edit-actions-submit', context).once('linkdigital').on('click', function(event) {
+        $('.menu-full-screen').addClass('hide')
+        $('.recaptcha-error > div').css({
+            "border": "2px solid rgb(231, 76, 60)",
+            "width": "307px",
+            "height": "80px"
+        });
+  }
+
     //   jQuery.trim(jQuery(".breadcrumb li:last-child").text()).substring(0, 10)
     // .split(" ").slice(0, -1).join(" ") + "...";
 
