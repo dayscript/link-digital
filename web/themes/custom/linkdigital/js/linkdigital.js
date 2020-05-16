@@ -65,7 +65,7 @@
     } // End if
   });
   $('#webform-submission-hablemos-add-form input#edit-actions-submit', context).once('linkdigital').on('click', function(event) {
-        $('.menu-full-screen').addClass('hide')
+        $('.recaptcha-error > div').addClass('recaptcha-fail')
         $('.recaptcha-error > div').css({
             "border": "2px solid rgb(231, 76, 60)",
             "width": "307px",
