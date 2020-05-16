@@ -16,6 +16,7 @@
     ],
     "require": {
         "composer/installers": "^1.2",
+        "drupal/adminimal_admin_toolbar": "^1.11",
         "drupal/better_exposed_filters": "^4.0@beta",
         "drupal/blazy": "^2.1",
         "drupal/block_class": "^1.1",
